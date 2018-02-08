@@ -140,3 +140,22 @@ body{
 /* #foto1{
 	width:200px;
 } */
+
+.img-container{
+	border: 3px dashed red;
+	height: 280px;
+	width: 280px;
+	margin: 0 auto;
+	margin-right: 3%;
+	padding-top: 12px;
+}
+
+.cont1, .cont2{
+	margin-top: 3%;
+	margin-left: 18%;
+	margin-right: 3%;
+}
+
+.img-container{
+	background-color: white;
+}
