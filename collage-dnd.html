@@ -5,36 +5,55 @@
 	<title>InstaCollage</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/d2c9b2c5c1.js"></script>
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
-<body id="galeria">
-	<section id="contenido">
-        	<div class="collage" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+<body>
+
+<section id="contenido">
+  <div class="row">
+    <div class="dropArea col-md-6" ondragover="permitirDrop(event)" ondrop="drop(event)">
     </div>
-    <div class="insta">
-    		<p class="insta-booth">Imágenes para el collage aquí</p>
+  </div>
+</section>
+
+<div class="insta">
+  <i class="fa fa-instagram" aria-hidden="true" class="insta-booth"></i>
+  <p class="insta-booth">PHOTO BOOTH</p>
+</div>
+
+<section id="container-photos">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row"></div>
+        <div class="galeria" ondragover="permitirDrop(event)" ondrop="drop(event)">
+          <div class="col-xs-12 col-md-12 col-lg-12">
+            <img id="foto1" draggable="true" ondragstart="drag(event)" src="assets/img/cherry1.jpg">
+            <img id="foto2" draggable="true" ondragstart="drag(event)" src="assets/img/cherry2.jpg">
+            <img id="foto3" draggable="true" ondragstart="drag(event)" src="assets/img/cherry3.jpg">
+            <img id="foto4" draggable="true" ondragstart="drag(event)" src="assets/img/cherry4.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+            <div class="galeria" ondragover="permitirDrop(event)" ondrop="drop(event)">
+            <div class="col-xs-12 col-md-12 col-lg-12">
+            <img id="foto5" draggable="true" ondragstart="drag(event)" src="assets/img/cherry5.jpg">
+            <img id="foto6" draggable="true" ondragstart="drag(event)" src="assets/img/cherry6.jpg">
+            <img id="foto7" draggable="true" ondragstart="drag(event)" src="assets/img/cherry7.jpg">
+            <img id="foto8" draggable="true" ondragstart="drag(event)" src="assets/img/cherry8.jpg">
+            </div>
+           </div>
+          </div>
+      </div>
     </div>
-    <div class="container-photos">
-	    	<div class="galeria" ondragover="permitirDrop(event)" ondrop="drop(event)">
-	    		<div class="col-xs-12 col-md-12 col-lg-12">
-		    	<img id="foto1" draggable="true" ondragstart="drag(event)" src="assets/img/01.jpg">
-		        <img id="foto2" draggable="true" ondragstart="drag(event)" src="assets/img/02.jpg" width="200">
-		        <img id="foto3" draggable="true" ondragstart="drag(event)" src="assets/img/03.jpg" width="200">
-		       	<img id="foto4" draggable="true" ondragstart="drag(event)" src="assets/img/04.jpg" width="200">
-		       	</div>
-		       	</div>
-		       	<div class="galeria" ondragover="permitirDrop(event)" ondrop="drop(event)">
-		       	<div class="col-xs-12 col-md-12 col-lg-12">
-	    		<img id="foto5" draggable="true" ondragstart="drag(event)" src="assets/img/05.jpg" width="200">
-		        <img id="foto6" draggable="true" ondragstart="drag(event)" src="assets/img/06.jpg" width="200">
-		        <img id="foto7" draggable="true" ondragstart="drag(event)" src="assets/img/07.jpg" width="200">
-		       	<img id="foto8" draggable="true" ondragstart="drag(event)" src="assets/img/08.jpg" width="200">
-		       	</div>
-		       </div>	
-    	</div>
-  </section>
+  </div>
+</section>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="assets/js/main.js"></script>
+
 </body>
 </html>

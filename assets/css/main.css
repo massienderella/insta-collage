@@ -13,19 +13,18 @@ height: 100vh;
 	box-sizing: border-box;
 }
 .dropdown label{
-	color: #fff;
+	color: #ffffff;
 	font-weight: normal;
 }
 .btn-default{
 	background-color: transparent;
-	color: #fff;
+	color: #ffffff;
 	border: none;
 }
 .btn-default:hover{
 	background-color: transparent;
 	color: #F03757;
 }
-
 
 #sign-in input{
 	background-color: rgba(255, 255, 255, 0.2);
@@ -50,7 +49,7 @@ height: 100vh;
 	font-size: 20px;
 }
 .btn-sign-in a{
-	color: #fff;
+	color: #ffffff;
 }
 .btn-sign-in a:hover{
 	color: #F03757;
@@ -92,33 +91,30 @@ height: 100vh;
 	color: #F03757;
 }
 
-/*ESTILOS ERROR INPUT JS*/
-.error{
-	background-image: url(../img/error.png);
-	background-repeat: no-repeat;
-	background-size: 40px;
-	background-position: right;
+body{
+	background-color: grey;
 }
 
-/*GALERIA*/
-#galeria{
-	background-color: pink;
+.dropArea{
+	width: 80%;
+	height: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 3%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	background-color: white;
+	outline: 3px dashed pink;
 }
-
-.collage{
-	width: 100%;
-	height: 500px;
-	background-color: #fff;
-}
-.collage img{
-	margin: 0 5px;
+.dropArea img{
+	margin: 2%;
 }
 .galeria{
-
 	width: 100%;
-	margin: 0;
+	margin-bottom: 5%;
 	padding: 0;
 }
+
 .container-photos img{
 	cursor: pointer;
 	margin: 3px;
@@ -127,13 +123,18 @@ height: 100vh;
 .insta-booth{
 	display: inline-block;
 	font-size: 25px;
-	padding: 40px 0;
+	margin-top: 3%;
+	margin-bottom: 3%;
 	color: white;
 	text-align: center;
 }
 .insta i{
 	font-size: 25px;
-	color: #3154CD;
+	color: white;
+}
+
+#contenido{
+	height: auto;
 }
 
 /* #foto1{
