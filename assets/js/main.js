@@ -8,7 +8,7 @@ function toCollage(){
 		alert("Ingresa tu usuario")
 	}
 
-	if((password == "") || (password == 123456) || (password.length < 5) || (password.length > 7)){
+	if((password == "") || (password == 123456) || (password.length < 5)){
 		alert("Ingresa una contraseña válida")
 	} else {
 		window.location.href="collage-dnd.html"
